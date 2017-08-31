@@ -42,7 +42,7 @@ if theta<0.0:
 X0=np.mean(mass1);
 Y0=np.mean(mass2);
 
-#s-value of error ellipse (depicting the percentage of points enclosed)
+#s-value of error ellipse (depicting the percentage of total points enclosed)
 s_value=9.21;  #for 97.5% confidence intervals
 
 #semi major and semi minor axes of the error ellipse
