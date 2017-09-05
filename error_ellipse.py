@@ -39,8 +39,8 @@ if theta<0.0:
     theta=theta+2*np.pi;
 
 #centre of the ellipse
-X0=np.mean(mass1);
-Y0=np.mean(mass2);
+X0=np.mean(x);
+Y0=np.mean(y);
 
 #s-value of error ellipse (depicting the percentage of total points enclosed)
 s_value=9.21;  #for 97.5% confidence intervals
